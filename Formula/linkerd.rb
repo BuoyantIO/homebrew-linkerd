@@ -7,6 +7,7 @@ class Linkerd < Formula
 
   def install
     system "chmod", "+x", "install-edge"
+    system "sh", "install-edge"
   end
 end
 
