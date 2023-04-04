@@ -6,9 +6,7 @@ class Linkerd < Formula
   license "Apache-2.0"
 
   def install
-    ENV["CI_FORCE_CLEAN"] = "1"
-
-    system "bin/build-cli-bin"
+    system "install-edge"
   end
 end
 
