@@ -6,7 +6,7 @@ class Linkerd < Formula
   license "Apache-2.0"
 
   def install
-    system "install-edge"
+    system "cat install-edge"
   end
 end
 
